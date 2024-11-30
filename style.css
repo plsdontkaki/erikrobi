@@ -50,6 +50,10 @@ h5 {
     font-family: monospace;
 }
 
+.spacer2 {
+    height: 20px;
+}
+
 a {
     font-size: 5vw;
     text-align: center;
@@ -101,6 +105,11 @@ a {
     animation: rotate 5s linear infinite;
 }
 
+p1{
+    font-family: 'Planet-Kosmos';
+    color: #000000;
+}
+
 .rainbow::after {
     content: '';
     position: absolute;
@@ -124,6 +133,11 @@ img {
 .responsive {
     max-width: 100%;
     height: auto;
+}
+
+#setup{
+    max-width: 46vw;
+    width: 46vw;
 }
 
 .sc {
