@@ -118,7 +118,7 @@ p1{
     top: 6px;
     width: calc(100% - 12px);
     height: calc(100% - 12px);
-    background: #53005e;
+    background: #53005e23;
     border-radius: 30px;
     animation: opacityChange 1000000000s infinite alternate;
 }
@@ -194,5 +194,13 @@ img {
         padding: 10px;
         margin: 5px;
         width: 100%;
+    }
+
+    #setup {
+        font-size: 4vw;
+        padding: 10px;
+        margin: 5px;
+        width: 100%;
+        min-width: 100%;
     }
 }
