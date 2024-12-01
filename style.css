@@ -118,7 +118,7 @@ p1{
     top: 6px;
     width: calc(100% - 12px);
     height: calc(100% - 12px);
-    background: #53005e23;
+    background: #53005e;
     border-radius: 30px;
     animation: opacityChange 1000000000s infinite alternate;
 }
