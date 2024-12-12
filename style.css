@@ -94,9 +94,9 @@ a {
     position: absolute;
     z-index: -2;
     left: -50%;
-    top: -50%;
+    top: -150%;
     width: 200%;
-    height: 200%;
+    height: 400%;
     background-repeat: no-repeat;
     background-size: 50% 50%;
     background-color: #91000000;
@@ -105,9 +105,10 @@ a {
     animation: rotate 5s linear infinite;
 }
 
-p1{
+p1 {
     font-family: 'Planet-Kosmos';
     color: #000000;
+   
 }
 
 .rainbow::after {
@@ -148,9 +149,30 @@ img {
     height: 5vw;
 }
 
+@media only screen and (max-width: 1200px) {
+    h4 {
+        font-size: 5vw;
+    }
+
+    button {
+        width: 150px;
+        height: auto;
+        
+    }
+
+    #setup {
+        font-size: 4vw;
+        padding: 10px;
+        margin: 5px;
+        width: 100%;
+        min-width: 100%;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .rainbow {
         grid-template-columns: repeat(4, 1fr);
+        
     }
 
     .img {
